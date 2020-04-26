@@ -20,7 +20,7 @@ resource "aws_instance" "web" {
   }
 }
 
-/*resource "aws_instance" "west" {
+resource "aws_instance" "west" {
     provider = "aws.west"
     ami           = "ami-06d51e91cea0dac8d"
     instance_type = "t2.micro"
@@ -28,4 +28,4 @@ resource "aws_instance" "web" {
   tags = {
     Name = "HelloWorld"
   }
-}*/
+}
